@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # [START anthosconfig_quickstart_policies_no_ext_services] 
-apiVersion: constraints.gatekeeper.sh/v1beta1
+apiVersion: constraints.gatekeeper.sh/v1
 kind: K8sNoExternalServices
 metadata:
   name: no-internet-services
